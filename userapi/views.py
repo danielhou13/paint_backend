@@ -15,11 +15,6 @@ def hello_world(request):
     return Response({"message": "Hello, world!"})
 
 
-@api_view(["GET"])
-def can_edit(request):
-    return Response({"message": True})
-
-
 # convert all the paints into a json to send into the frontend
 @api_view(["GET"])
 def retrieve_paints(request):
