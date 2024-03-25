@@ -1,7 +1,7 @@
 ## Paint Tracker Website Django Backend
 
-This Django app was built to host APIs for the Paint Tracker Website [frontend] (https://github.com/danielhou13/Paint_tracker_website). The primary use of this Django app is the API calls found in `userapi/views.py` and the Django Admin Page.
-The database for this backend is an Amazon RDS database. The application is deployed using heroku and can be found at this [link] (https://django-paint-6d3cee377c88.herokuapp.com/api/). 
+This Django app was built to host APIs for the Paint Tracker Website [frontend](https://github.com/danielhou13/Paint_tracker_website). The primary use of this Django app is the API calls found in `userapi/views.py` and the Django Admin Page.
+The database for this backend is an Amazon RDS database. The application is deployed using heroku and can be found at this [link](https://django-paint-6d3cee377c88.herokuapp.com/api/). 
 Since this is meant to be a backend, there is no fancy landing page and really is just used for the api calls and admin page found [here](https://django-paint-6d3cee377c88.herokuapp.com/admin/login/?next=/admin/).
 
 ## Django Admin Page
@@ -10,7 +10,7 @@ It features `groups`, `users`, as well as a model called `paints` under `userapi
 ![image](https://github.com/danielhou13/paint_backend/assets/54420410/73ccc89c-a91d-4d94-87b0-0c75341fe394)
 
 ### Groups
-Inside of the groups, there are groups with specific permissions such as painter, assigned, and system admin. Of course the system admin has all the permissions, whereas assigner can only "view".
+Inside of the groups, there are groups with specific permissions such as painter, assigned, and system admin. Of course, the system admin has all the permissions, whereas assigner can only "view".
 
 ![image](https://github.com/danielhou13/paint_backend/assets/54420410/4092fe6a-fa78-4ae0-9bbf-905baf41e8b1) </br>
 See that the painter group can view, edit, and update paint.
