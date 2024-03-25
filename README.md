@@ -5,7 +5,7 @@ The database for this backend is an Amazon RDS database. The application is depl
 Since this is meant to be a backend, there is no fancy landing page and really is just used for the api calls and admin page found [here](https://django-paint-6d3cee377c88.herokuapp.com/admin/login/?next=/admin/).
 
 ## Django Admin Page
-Currently, the Admin Page is logged in by the user "admin" or "Adam" using the password `testtest12345`.
+Currently, the Admin Page is logged in by the user `admin` or `Adam` using the password `testtest12345`.
 It features `groups`, `users`, as well as a model called `paints` under `userapi`. Currently, this is the only way to add new groups, users, and paints, and it can be done by the system admin "Adam".
 ![image](https://github.com/danielhou13/paint_backend/assets/54420410/73ccc89c-a91d-4d94-87b0-0c75341fe394)
 
